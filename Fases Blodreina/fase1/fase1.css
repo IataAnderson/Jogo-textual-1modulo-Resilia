@@ -1,0 +1,64 @@
+body {
+    background-image: url('./floresescura.jpg');
+    background-size: 100%;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(184, 226, 226);
+    font-size: 300%;
+    font-family: Stencil Std, fantasy;}
+
+h1:hover {
+    color: darkred;
+}
+
+header {
+    color: rgb(243, 240, 248);
+    text-align: center;
+}
+.blodreina {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    position: relative;
+    margin-top: -35%;
+    margin-right: 65%;
+}
+
+section {
+    background: rgba(185, 105, 105, 0.63);
+    border-radius: 10px;
+    border: 3px solid rgba(250, 5, 5, 0.322);
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    margin-top: 5%;
+}
+button {
+    display: block;
+    margin:auto auto;
+    background: rgba(185, 101, 101, 0.473);
+    border-radius: 10px;
+    border: 3px solid rgba(250, 5, 5, 0.322);
+    cursor: pointer;
+    font-size: 15px;
+     }
+
+footer {
+    color: rgb(80, 75, 75);
+    text-align: center;
+    font-style: italic;
+    margin-top: 10%;
+}
+::-webkit-scrollbar {
+    width: 20px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: darkred;
+    border-radius: 30px;
+}
+::-webkit-scrollbar-track {
+    background-color: #333;
+}

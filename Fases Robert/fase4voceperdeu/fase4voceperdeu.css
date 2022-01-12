@@ -1,0 +1,70 @@
+body {
+    background-image: url('./fimdomundo.jpg');
+    font: normal 15pt Arial;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(7, 104, 104, 0.877);
+    font-size: 300%;
+    font-family: Stencil Std, fantasy;}
+
+h1:hover {
+    color: darkred;
+}
+
+header {
+    color: rgb(243, 240, 248);
+    text-align: center;
+}
+.willsmith {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    position: relative;
+    margin-top: -13%;
+    margin-right: 50%;
+    
+}
+
+section {
+    background: rgba(92, 81, 81, 0.473);
+    border-radius: 10px;
+    border: 3px solid rgba(250, 5, 5, 0.322);
+    padding: 15px;
+    width: 400px;
+    margin: auto;
+    margin-top: 5%;
+}
+button {
+    display: flex;
+    margin: auto auto;
+    background: rgba(185, 101, 101, 0.473);
+    margin-top: -35px;
+    border-radius: 10px;
+    border: 3px solid rgba(250, 5, 5, 0.322);
+    cursor: pointer;
+    font-size: 15px;
+     }
+a {
+    text-decoration: none;
+}
+footer {
+    color: rgb(233, 198, 198);
+    text-align: center;
+    font-style: italic;
+    margin-top: 10%;
+}
+::-webkit-scrollbar {
+    width: 20px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: darkred;
+    border-radius: 30px;
+}
+::-webkit-scrollbar-track {
+    background-color: #333;
+}
