@@ -2,7 +2,7 @@ body {
     background-image: url('./fimdomundo.jpg');
     font: normal 15pt Arial;
     background-repeat: no-repeat;
-    background-size: 100%
+    background-size: cover;
 }
 h1{
     display: flex;
@@ -51,7 +51,13 @@ button {
 
 }
 a{
-    text-decoration: none;}
+    text-decoration: none;
+}
+main {
+    width: 1280px;
+    height: 720px;
+    margin: 0 auto;
+}
 footer {
     color: rgb(80, 75, 75);
     text-align: center;

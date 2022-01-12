@@ -1,6 +1,6 @@
 body {
     background-image: url('./fimdomundo.jpg');
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 h1{
@@ -38,6 +38,11 @@ section {
     margin: auto;
     margin-top: 5%;
 }
+main {
+    width: 1280px;
+    height: 720px;
+    margin: 0 auto;
+}
 button {
     display: block;
     margin:auto auto;
@@ -54,6 +59,7 @@ button {
 a{
     text-decoration: none;
 }
+
 footer {
     color: rgba(245, 14, 14, 0.781);
     text-align: center;
